@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "RoPro Modded V4",
+  "version": "1.2",
+  "description": "Open Source RoPro Rex Modded with all features.",
+  "permissions": [
+    "cookies",
+    "storage",
+    "alarms"
+  ],
+  "host_permissions": [
+    "https://www.roblox.com/*",
+    "https://api.roblox.com/*",
+    "https://users.roblox.com/*",
+    "https://presence.roblox.com/*",
+    "https://friends.roblox.com/*",
+    "https://groups.roblox.com/*",
+    "https://badges.roblox.com/*",
+    "https://inventory.roblox.com/*",
+    "https://economy.roblox.com/*",
+    "https://thumbnails.roblox.com/*",
+    "https://api.ipify.org/*"
+  ],
+  "background": {
+    "service_worker": "js/page/avatarPage.js",
+    "type": "module"
+  },
+  "icons": {
+    "128": "logo.png"
+  },
+  "author": "RoPro Mod Team",
+  "action": {
+    "default_icon": {
+      "128": "logo.png"
+    },
+    "default_title": "RoPro Modded V4"
+  }
+}
